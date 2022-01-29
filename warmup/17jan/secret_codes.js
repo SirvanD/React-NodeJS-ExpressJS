@@ -46,6 +46,12 @@ const decipher = (codeInput) => {
         return char;
       } else if (char == ".") {
         return char;
+      } else if (char == "a") {
+        return "x";
+      } else if (char == "b") {
+        return "y";
+      } else if (char == "c") {
+        return "z";
       } else {
         index = alphabet.indexOf(char);
         decipheredIndex = index - 3;

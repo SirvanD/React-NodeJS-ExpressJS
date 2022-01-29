@@ -1,0 +1,26 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    justify-self: center;
+    align-self: center;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 10px;
+}
+
+.card-top {
+    width: 400px;
+    height: 300;
+    background-color: whitesmoke;
+}
+.card-bottom {
+    width: 400px;
+    height: 220px;
+    background-color: grey;
+    
+}
