@@ -26,5 +26,5 @@ app.get("/contact", (req, res) => {
   //   res.send("<h1>Contact US</h1>");
   res.render("show");
 });
-
+//port open
 app.listen(7070);
