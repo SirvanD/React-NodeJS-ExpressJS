@@ -10,6 +10,7 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 // which folder you want to put your ejs templates
+//you can skip the template part
 app.set("views", "./templates"); //require ejs for you
 
 app.get("/hello/:name", (req, res) => {
