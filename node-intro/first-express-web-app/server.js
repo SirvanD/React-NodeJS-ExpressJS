@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const _ = require("underscore");
 
-// express is only does routing
+// express only does routing
 
 //manual setup if you want to use templates
 app.set("view engine", "ejs");
