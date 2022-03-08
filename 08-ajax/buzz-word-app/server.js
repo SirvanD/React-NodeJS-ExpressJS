@@ -19,9 +19,9 @@ app.get("/api/words", (req, res) => {
 });
 
 app.post("/api/words", (req, res) => {
-  //expect new word from request
+  expect new word from request
 
-  //   newWord = req.body;
+    newWord = req.body;
 
   word.create(req.body);
 
