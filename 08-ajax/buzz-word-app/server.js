@@ -29,7 +29,7 @@ app.post("/api/words", (req, res) => {
 
   //res back to client that all is good
 });
-
+//port opens
 app.listen(8080, () => {
   console.log("server on 8080");
 });
