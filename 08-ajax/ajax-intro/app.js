@@ -46,6 +46,7 @@ axios
   .get("https://www.omdbapi.com/?s=jaws&apikey=6139fe0d")
   .then(handleResponse);
 
+//testing which one logs first
 console.log("hello me first");
 
 // js & ruby - employee - do one thing at a time
