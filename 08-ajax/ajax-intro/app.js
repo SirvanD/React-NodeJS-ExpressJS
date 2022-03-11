@@ -41,7 +41,7 @@ function handleResponse(res) {
     list.appendChild(li);
   });
 }
-
+//get the api response
 axios
   .get("https://www.omdbapi.com/?s=jaws&apikey=6139fe0d")
   .then(handleResponse);
